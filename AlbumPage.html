@@ -1,29 +1,53 @@
 <!DOCTYPE html>
-<html>
     <head>
-     <center><img src="SgtPepper.jpg" alt="Sgt Pepper Album Cover" >
+    <meta charset="UTF-8">
+    <style>
+        .band{
+            text-align:center;
+            }
+        .band ul{
+            display:inline-block;
+            text-align: left;
+        }
+        body {
+            text-align: center;
+        }
+        /* table is a block element, added margin 0px auto to correct left justify*/
+        table {    
+            margin: 0px auto;
+            background-color: black;
+        } 
+        td, th {
+            border: 1px solid black; 
+            background-color: white;
+        }
+        th{
+           background-color: gray;
+        }
+    </style>
     <title>Sgt. Pepper's Lonely Hearts Club Band</title>
     </head>
     <body>
+            <img src="SgtPepper.jpg" alt="Sgt Pepper Album Cover">
     <h1>Sgt. Pepper's Lonely Hearts Club Band</h1>
     <a href="https://www.thebeatles.com/" target="_blank"><h2>The Beatles</h2></a>
     <h3>Released: June 1, 1967</h3>   
     <p>
      One of the Beatle's top albums of all time and the most popular in America.
     </p>
-
     <hr>
 <h2>Band Members</h2>
-</center>
-<ul>
-    <li>Paul McCartney - Lead Vocals and Guitar</li>
-    <li>John Lennon- Lead Vocals and Guitar</li>
-    <li>George Harrison - Vocals and Guitar</li>
-    <li>Ringo Starr - Drums</li>
-</ul>
-<center>
-<table border="1">
-    <tr bgcolor="gray">
+<div class="band">
+        <ul>
+            <li>Paul McCartney - Lead Vocals and Guitar</li>
+            <li>John Lennon- Lead Vocals and Guitar</li>
+            <li>George Harrison - Vocals and Guitar</li>
+            <li>Ringo Starr - Drums</li>
+        </ul>
+        </div>
+        <h2>Tracks</h2>
+<table>
+    <tr>
         <th>Track #</th>
         <th>Track Title</th>
         <th>Track Length</th>
@@ -94,6 +118,5 @@
                                                     <td>5:34</td>
                                                 </tr>
 </table>
-</center>
 </body>
 </html>
